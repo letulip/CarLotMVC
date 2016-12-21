@@ -6,7 +6,9 @@
     <script type="text/javascript">
         // <![CDATA[
         function btnShow_onclick() {
-            alert(window.txtUserMessage.value);
+            var t = document.getElementById("txtUserMessage");
+
+            alert(t.value);
         }
         // ]]>
     </script>
@@ -29,7 +31,7 @@
             Your Message:
             <input id="txtUserMessage" type="text"/>
         </p>
-        <input id="btnShow" type="button" value="Show!" onclick="return btnShow_onclick()" />
+        <input id="btnShow" type="button" value="Show!" onclick="javascript: btnShow_onclick();" />
         <input id="btnReset" type="reset" value="Reset" />
     </form>
 
