@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSet">
+    <Position X="1.25" Y="0.75" Width="3.25" />
+    <NestedTypes>
+      <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSet.CustomersRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSet.CustomersDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSet.InventoryDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSet.InventoryRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSet.OrdersRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Delegate Name="DataGridViewDesigner.DataSets.AutoLotDataSet.OrdersRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSet.CustomersRow" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Delegate Name="DataGridViewDesigner.DataSets.AutoLotDataSet.CustomersRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="DataGridViewDesigner.DataSets.AutoLotDataSet.InventoryRowChangeEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSet.OrdersDataTable" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSet.OrdersRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSet.InventoryRowChangeEvent" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAEAAAAAAwAAgAJABAACQAAAIAgCQDgAAAAiAgEAFBA=</HashCode>
+      <FileName>DataSets\AutoLotDataSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSetTableAdapters.CustomersTableAdapter">
+    <Position X="5.25" Y="0.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSetTableAdapters.InventoryTableAdapter">
+    <Position X="9.25" Y="0.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+      <FileName>DataSets\AutoLotDataSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSetTableAdapters.OrdersTableAdapter">
+    <Position X="1.25" Y="8.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSetTableAdapters.QueriesTableAdapter">
+    <Position X="5.25" Y="6.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAIAAAIAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSetTableAdapters.TableAdapterManager">
+    <Position X="9.25" Y="6.75" Width="3.25" />
+    <NestedTypes>
+      <Enum Name="DataGridViewDesigner.DataSets.AutoLotDataSetTableAdapters.TableAdapterManager.UpdateOrderOption" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Class Name="DataGridViewDesigner.DataSets.AutoLotDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer" Collapsed="true">
+        <TypeIdentifier />
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AYAAACAAAABABAEBAQAAMAAgAAACgAKAAAQABAEABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
